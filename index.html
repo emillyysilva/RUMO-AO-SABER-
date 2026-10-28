@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENEM Prep - Sua ferramenta de estudos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Navegação principal">
+            <div class="logo">Rumo ao Saber</div>
+            <div class="nav-tabs" role="tablist" aria-label="Seções do site">
+                <button class="nav-tab active" id="tab-home" type="button" role="tab" aria-selected="true" aria-controls="home" tabindex="0" data-tab="home">Início</button>
+                <button class="nav-tab" id="tab-quiz" type="button" role="tab" aria-selected="false" aria-controls="quiz" tabindex="-1" data-tab="quiz">Praticar</button>
+                <button class="nav-tab" id="tab-dicas" type="button" role="tab" aria-selected="false" aria-controls="dicas" tabindex="-1" data-tab="dicas">Dicas</button>
+                <button class="nav-tab" id="tab-recursos" type="button" role="tab" aria-selected="false" aria-controls="recursos" tabindex="-1" data-tab="recursos">Recursos</button>
+                <button class="nav-tab" id="tab-cronograma" type="button" role="tab" aria-selected="false" aria-controls="cronograma" tabindex="-1" data-tab="cronograma">Cronograma</button>
+                <button class="nav-tab" id="tab-sobre" type="button" role="tab" aria-selected="false" aria-controls="sobre" tabindex="-1" data-tab="sobre">Sobre</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="tab-content-container">
+            
+<!-- Home Tab -->
+            <div id="home" class="tab-pane active" role="tabpanel" aria-labelledby="tab-home" tabindex="0">
+                <section class="hero">
+                    <div class="hero-content">
+                        <div class="hero-badge">🚀 Descubra seu potencial</div>
+                        <h1>Prepare-se para o ENEM</h1>
+                        <p>Sua ferramenta completa de estudos para o Exame Nacional do Ensino Médio</p>
+                        <div class="hero-buttons">
+                            <button class="btn-primary btn-large tab-trigger" data-tab="quiz">▶ Começar Agora</button>
+                            <button class="btn-secondary btn-large tab-trigger" data-tab="dicas">💡 Ver Dicas</button>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Stats Section -->
+                <section class="section stats-section">
+                    <div class="container">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon">📝</div>
+                                <div class="stat-number">180</div>
+                                <div class="stat-label">Questões</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">✍️</div>
+                                <div class="stat-number">1</div>
+                                <div class="stat-label">Redação</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">⏰</div>
+                                <div class="stat-number">5h30</div>
+                                <div class="stat-label">Duração (1º dia)</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">🎓</div>
+                                <div class="stat-number">100%</div>
+                                <div class="stat-label">Gratuito</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Quick Access -->
+                <section class="section bg-light">
+                    <div class="container">
+                        <h2>Acesso Rápido</h2>
+                        <div class="quick-access-grid">
+                            <button type="button" class="quick-access-card" data-tab="quiz">
+                                <span class="qa-icon">🎯</span>
+                                <span class="qa-title">Praticar</span>
+                                <span class="qa-description">Teste seus conhecimentos com questões de provas anteriores</span>
+                            </button>
+                            <button type="button" class="quick-access-card" data-tab="dicas">
+                                <span class="qa-icon">💡</span>
+                                <span class="qa-title">Dicas</span>
+                                <span class="qa-description">Estratégias de estudo para melhorar seu desempenho</span>
+                            </button>
+                            <button type="button" class="quick-access-card" data-tab="cronograma">
+                                <span class="qa-icon">📅</span>
+                                <span class="qa-title">Cronograma</span>
+                                <span class="qa-description">Datas importantes do ENEM 2026</span>
+                            </button>
+                            <button type="button" class="quick-access-card" data-tab="recursos">
+                                <span class="qa-icon">📚</span>
+                                <span class="qa-title">Recursos</span>
+                                <span class="qa-description">Materiais gratuitos para estudo</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- About ENEM Tab -->
+            <div id="sobre" class="tab-pane" role="tabpanel" aria-labelledby="tab-sobre" tabindex="0">
+                <section class="section">
+                    <div class="container">
+                        <h2>O que é o ENEM?</h2>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <h3>🎯 Objetivo</h3>
+                                <p>O ENEM avalia o desempenho dos estudantes ao término do ensino médio e serve como porta de entrada para universidades públicas e programas de financiamento estudantil.</p>
+                            </div>
+                            <div class="info-card">
+                                <h3>📝 Formato</h3>
+                                <p>Prova aplicada em dois dias, com 180 questões objetivas (45 por área) e uma redação dissertativo-argumentativa.</p>
+                            </div>
+                            <div class="info-card">
+                                <h3>📚 Áreas de Conhecimento</h3>
+                                <p>Linguagens, Humanas, Natureza e Matemática, além de Redação.</p>
+                            </div>
+                            <div class="info-card">
+                                <h3>⏰ Tempo</h3>
+                                <p>No ENEM 2026, são 5 horas e 30 minutos no primeiro dia e 5 horas no segundo, conforme o edital.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+<!-- Study Tips Tab -->
+            <div id="dicas" class="tab-pane" role="tabpanel" aria-labelledby="tab-dicas" tabindex="0">
+                <section class="section bg-light">
+                    <div class="container">
+                        <h2>Dicas de Estudo</h2>
+                        <div class="tips-grid">
+                            <div class="tip-card">
+                                <div class="tip-number">1</div>
+                                <h3>Faça um cronograma</h3>
+                                <p>Estabeleça metas diárias de estudo e siga um cronograma organizado. Inclua pausas regulares para não ficar exausto.</p>
+                            </div>
+                            <div class="tip-card">
+                                <div class="tip-number">2</div>
+                                <h3>Pratique redação</h3>
+                                <p>Escreva pelo menos uma redação por semana. Pratique os tipos de texto cobrados: dissertativo-argumentativo.</p>
+                            </div>
+                            <div class="tip-card">
+                                <div class="tip-number">3</div>
+                                <h3>Resolva provas anteriores</h3>
+                                <p>Faça as provas dos anos anteriores para se familiarizar com o estilo das questões e gerenciar melhor o tempo.</p>
+                            </div>
+                            <div class="tip-card">
+                                <div class="tip-number">4</div>
+                                <h3>Revise constantemente</h3>
+                                <p>Faça revisões espaçadas para fixar o conteúdo. Revise os tópicos mais importantes alguns dias antes da prova.</p>
+                            </div>
+                            <div class="tip-card">
+                                <div class="tip-number">5</div>
+                                <h3>Cuide da saúde</h3>
+                                <p>Durma bem, alimente-se de forma equilibrada e faça atividades físicas. Um corpo saudável ajuda na concentração.</p>
+                            </div>
+                            <div class="tip-card">
+                                <div class="tip-number">6</div>
+                                <h3>Estude com simulados</h3>
+                                <p>Faça simulados completos em condições de prova para desenvolver resistência e gerenciar o tempo.</p>
+                            </div>
+                            <div class="tip-card">
+                                <div class="tip-number">7</div>
+                                <h3>Leia muito</h3>
+                                <p>A leitura diárias de notícias e artigos ajuda na compreensão de textos e amplia seu vocabulário.</p>
+                            </div>
+                            <div class="tip-card">
+                                <div class="tip-number">8</div>
+                                <h3>Monte um grupo</h3>
+                                <p>Estudar em grupo pode ser motivating. Explique o conteúdo para outros e aprenda juntos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+<!-- Quiz Tab -->
+            <div id="quiz" class="tab-pane" role="tabpanel" aria-labelledby="tab-quiz" tabindex="0">
+                <section class="section">
+                    <div class="container">
+                        <h2>Teste seus Conhecimentos</h2>
+                        <p class="section-subtitle">Pratique com questões de provas anteriores</p>
+                        
+<!-- Quiz Stats & Progress (Unified and Centered) -->
+                        <div class="quiz-dashboard">
+<div class="quiz-stats">
+                                <div class="stat-box">
+                                    <span class="stat-label">Área</span>
+                                    <select id="area-select" class="area-select">
+                                        <option value="linguagens">📝 Linguagens</option>
+                                        <option value="humanas">🏛️ Humanas</option>
+                                        <option value="natureza">🧬 Natureza</option>
+                                        <option value="matematica">🔢 Matemática</option>
+                                    </select>
+                                </div>
+                                <div class="stat-box">
+                                    <span class="stat-label">Questão</span>
+                                    <span class="stat-value" id="current-q">1/10</span>
+                                </div>
+                                <div class="stat-box timer-box">
+                                    <span class="stat-label">Tempo restante</span>
+                                    <span class="stat-value" id="timer" role="timer" aria-label="Tempo restante: 30 segundos">0:30</span>
+                                </div>
+                            </div>
+<div class="progress-bar-container">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="quiz-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Quiz Container -->
+                        <div class="quiz-container">
+                            <div id="quiz-box" style="display: none;">
+                                <div class="quiz-header">
+                                    <span class="quiz-area" id="area-name">Área: Linguagens</span>
+                                    <span class="quiz-question" id="question-number">Questão 1 de 10</span>
+                                </div>
+                                <div class="quiz-content">
+                                    <p class="question-text" id="question-text">
+                                        Escolha a alternativa correta:
+                                    </p>
+                                    <div class="options" id="options">
+                                        <button class="option" data-value="a">Opção A</button>
+                                        <button class="option" data-value="b">Opção B</button>
+                                        <button class="option" data-value="c">Opção C</button>
+                                        <button class="option" data-value="d">Opção D</button>
+                                    </div>
+                                </div>
+                                <div class="quiz-feedback" id="feedback" role="status" aria-live="polite"></div>
+                                <div class="quiz-nav">
+                                    <button class="btn-quiz-blue" id="next-btn" disabled>Próxima Questão</button>
+                                </div>
+                            </div>
+                            
+                            <div class="quiz-results" id="results" style="display: none;">
+                                <div class="results-icon">🎉</div>
+                                <h3>Resultado Final</h3>
+                                <div class="results-stats">
+                                    <div class="result-item">
+                                        <span class="result-label">Acertos</span>
+                                        <span class="result-value" id="score-text"></span>
+                                    </div>
+                                    <div class="result-item">
+                                        <span class="result-label">Porcentagem</span>
+                                        <span class="result-value" id="percentage-text"></span>
+                                    </div>
+                                    <div class="result-item">
+                                        <span class="result-label">Tempo Médio</span>
+                                        <span class="result-value" id="time-text"></span>
+                                    </div>
+                                </div>
+                                <p class="score-detail" id="score-detail"></p>
+<div class="results-actions">
+                                    <button class="btn-primary" onclick="restartQuiz()">🔄 Tentar Novamente</button>
+                                    <button class="btn-quiz-blue" onclick="showQuestions()">📋 Revisar Questões</button>
+                                </div>
+                            </div>
+                            
+                            <!-- Questions Review -->
+                            <div class="questions-review" id="questions-review" style="display: none;">
+                                <div class="review-header">
+                                    <button class="btn-secondary" onclick="backToResults()">← Voltar</button>
+                                    <h3>Revisão das Questões</h3>
+                                </div>
+                                <div class="review-list" id="review-list"></div>
+                            </div>
+                            
+                            <!-- Start Screen -->
+                            <div id="quiz-start">
+                                <div class="start-info">
+                                    <h3>Como funciona?</h3>
+                                    <ul>
+                                        <li>📝 10 questões por área</li>
+                                        <li>⏱️ 30 segundos por questão</li>
+                                        <li>🎯 Cada questão vale 10 pontos</li>
+                                        <li>📊 Total: 100 pontos por área</li>
+                                    </ul>
+                                </div>
+                                <button class="btn-primary btn-large" id="start-btn">▶ Começar Quiz</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+<!-- Schedule Tab -->
+            <div id="cronograma" class="tab-pane" role="tabpanel" aria-labelledby="tab-cronograma" tabindex="0">
+                <section class="section">
+                    <div class="container">
+                        <h2>Cronograma ENEM 2026</h2>
+                        <p>Datas verificadas nas informações oficiais do INEP disponíveis em 28/10/2026. Consulte a fonte oficial para atualizações.</p>
+                        <div class="schedule-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Data</th>
+                                        <th>Evento</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>27/10/2026</td>
+                                        <td>Disponibilização do Cartão de Confirmação e do local de prova</td>
+                                    </tr>
+                                    <tr>
+                                        <td>08 e 15/11/2026</td>
+                                        <td>Aplicação das provas do 1º e 2º dia</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p><a href="https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enem/enem-2026-participantes-ja-podem-conferir-os-locais-de-prova" target="_blank" rel="noopener noreferrer">Confira as informações oficiais do INEP sobre o ENEM 2026</a>.</p>
+                    </div>
+                </section>
+            </div>
+
+<!-- Resources Tab -->
+            <div id="recursos" class="tab-pane" role="tabpanel" aria-labelledby="tab-recursos" tabindex="0">
+                <section class="section bg-light">
+                    <div class="container">
+                        <h2>Recursos Gratuitos</h2>
+                        <div class="resources-grid">
+<div class="resource-card">
+                                <h3>📺 Playlist de Matemática</h3>
+                                <p>Playlist completa de matemática para o ENEM com todos os tópicos cobrados na prova.</p>
+                                <a href="https://www.youtube.com/watch?v=MA_ZrgV2xws&list=PL8Sb1J47vKz5roPScagXaUkk-maGYZy4c" target="_blank" rel="noopener noreferrer" class="btn-link">▶ Assistir Playlist Matemática</a>
+                            </div>
+                            <div class="resource-card">
+                                <h3>📚 PDF Enem</h3>
+                                <p>Baixe provas anteriores e gabaritos oficiais do INEP.</p>
+                                <a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/enem/provas-e-gabaritos" target="_blank" rel="noopener noreferrer" class="btn-link">Baixar Provas</a>
+                            </div>
+                            <div class="resource-card">
+                                <h3>📖 Agenda Edu</h3>
+                                <p>Aplicativo de estudos com plano de estudos personalizado.</p>
+                                <a href="https://www.agendaedu.com/" target="_blank" rel="noopener noreferrer" class="btn-link">Acessar</a>
+                            </div>
+                            <div class="resource-card">
+                                <h3>📓 Descomplica</h3>
+                                <p>Aulas gratuitas, simulados e dicas para o ENEM. Um dos maiores portais de educação do Brasil.</p>
+                                <a href="https://www.descomplica.com.br/" target="_blank" rel="noopener noreferrer" class="btn-link">Acessar</a>
+                            </div>
+                            <div class="resource-card">
+                                <h3>📗 Stoodi</h3>
+                                <p>Curso online gratuito com videoaulas e exercícios para o ENEM.</p>
+                                <a href="https://www.stoodi.com.br/" target="_blank" rel="noopener noreferrer" class="btn-link">Acessar</a>
+                            </div>
+                            <div class="resource-card">
+                                <h3>🎯 Matemática em Exercícios</h3>
+                                <p>Canal focado em resolução de exercícios de matemática para o ENEM.</p>
+                                <a href="https://www.youtube.com/@MatematicaEmExercicios" target="_blank" rel="noopener noreferrer" class="btn-link">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Rumo ao Saber - Todos os direitos reservados</p>
+            <p class="footer-note">Este site é uma ferramenta de estudos e não possui vínculo oficial com o INEP ou MEC.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
